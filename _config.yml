@@ -18,21 +18,53 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Woke Windows
+subtitle: Providing a view into the Boston Police Department
+email: nstory@wokewindows.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Articles, research, and analysis of the Boston Police Department using the Woke Windows database.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://blog.wokewindows.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: nathan_story
+github_username:  nstory
+logo: "/assets/images/brand-128.png"
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+
 plugins:
   - jekyll-feed
+
+# default author; also see _data/authors.yml
+author:
+  name: "Nathan Story"
+  bio: "Founder @ <a href='https://www.wokewindows.org/'>Woke Windows</a>. Computer nerd, FOIA neophyte."
+  avatar: "/assets/images/nathan-photo.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nathan_story"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nstory"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nathan_story"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nstory/wokewindows"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

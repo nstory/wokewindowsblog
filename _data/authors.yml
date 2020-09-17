@@ -1,0 +1,11 @@
+nstory:
+  name: "Nathan Story"
+  bio: "Founder @ <a href='https://www.wokewindows.org/'>Woke Windows</a>. Computer nerd, FOIA neophyte."
+  avatar: "/assets/images/nathan-photo.jpg"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/nathan_story"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nstory"
