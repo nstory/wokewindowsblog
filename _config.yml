@@ -28,6 +28,7 @@ url: "https://blog.wokewindows.org" # the base hostname & protocol for your site
 twitter_username: nathan_story
 github_username:  nstory
 logo: "/assets/images/brand-128.png"
+og_image: "/assets/images/brand-128.png"
 
 # Build settings
 theme: minimal-mistakes-jekyll
