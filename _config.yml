@@ -39,8 +39,8 @@ plugins:
 # default author; also see _data/authors.yml
 author:
   name: "Nathan Story"
-  bio: "Founder @ <a href='https://www.wokewindows.org/'>Woke Windows</a>. Computer nerd, FOIA neophyte."
-  avatar: "/assets/images/nathan-photo.jpg"
+  bio: "Founder @ <a href='https://www.wokewindows.org/'>Woke Windows</a>. Computer nerd, FOIA enthusiast."
+  avatar: "/assets/images/mask_photo.jpg"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -56,7 +56,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
 
 footer:
   links:
