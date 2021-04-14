@@ -4,6 +4,22 @@ title:  "Boston Public Records Log"
 date:   2021-01-14 12:00:00 -0400
 author: nstory
 ---
+
+**EDIT Apr 14, 2021**
+
+[Shawn Breen](https://twitter.com/TTOJAF) made a request for the Boston PRR log on MuckRock [FOIA Request: FOIA logs for years 2016, 2017, 2018, 2019 and 2020](https://www.muckrock.com/foi/boston-3/foia-request-foia-logs-for-years-2016-2017-2018-2019-and-2020-103036/). The data he received has the _Public Record Desired_ field for all requests, which makes the data much more useful.
+
+The records he received, however, did not have the _Req. Compl. Date_ or _Request Status_ fields.
+
+I combined the records originally described in this post with these new records to create a combined spreadsheet which includes all fields for requests from 2017 to 2020:
+
+* [boston_prr_2017_2020.csv](https://wokewindows-data.s3.amazonaws.com/boston_prr_2017_2020.csv)
+* [boston_prr_2017_2020.xlsx](https://wokewindows-data.s3.amazonaws.com/boston_prr_2017_2020.xlsx)
+
+See also [the GitHub project](https://github.com/nstory/boston_public_records).
+
+**Original Post**
+
 The City of Boston responded to my public records request (PRR) for an export of the public records requests in the [Boston Public Records Center](https://bostonma.govqa.us/WEBAPP/_rs) (yeah, it's a little meta). These records were provided to me on Dec 8, 2020.
 
 The log was provided to me as two files. One contains requests to the Boston Police Department (BPD), and one contains requests to all other departments. The police file does not contain a description of the records requested.
