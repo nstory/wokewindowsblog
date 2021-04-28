@@ -5,7 +5,7 @@ date:   2021-04-28 01:00:00 -0400
 author: nstory
 excerpt: User and administrator manuals for the IAPro police internal affairs software
 header:
-  og_image: /assets/images/iapro/iapro_logo.png
+  og_image: /assets/images/iapro/iapro_card.png
 ---
 
 ![IAPro Logo](/assets/images/iapro/iapro_logo.png)
