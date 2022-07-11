@@ -1,0 +1,18 @@
+---
+layout: single
+title:  "Woke Windows is no longer being updated"
+date:   2021-07-10 20:00:00 -0400
+author: nstory
+---
+
+I just checked and realized it's been over a year since I've pushed any updates to [Woke Windows](https://www.wokewindows.org/). I just have to admit to myself that I don't have the time and/or motivation to keep up with this.
+
+I will keep the site running for the foreseeable future, but I won't be posting any new content. I expect the site will become less and less useful as the data ages.
+
+The [source code for Woke Windows is available on GitHub](https://github.com/nstory/wokewindows) and all the data sources we used to create the site are [available on the data sources page](https://www.wokewindows.org/data_sources).
+
+Thank you to everyone who gave me advice, contributed code, and otherwise lent a hand!!!
+
+ -- Nathan
+
+ P.S. If you've built something similar to Woke Windows that people may find useful, reach out, and I'll add a link to it here.
