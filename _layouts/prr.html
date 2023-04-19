@@ -1,0 +1,15 @@
+---
+layout: single
+---
+
+<p>Request Submitted: {{ page.prr_request }}</p>
+<p>Response Received: {{ page.prr_response }}</p>
+<p>Request: <a href="{{ page.discussion }}">{{ page.discussion | split: "/" | last }}</a><p>
+<p>Response:</p>
+<ul>
+{% for link in page.files %}
+  <li><a href="{{ link }}">{{ link | split: "/" | last }}</a></li>
+{% endfor %}
+</ul>
+
+{{ content }}
